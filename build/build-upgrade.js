@@ -39,7 +39,7 @@ var platforms = {
 // `./output/pc.json`
 module.exports = makeUpgrade
 
-// makeUpgrade({ name: 'vue-nw-seed', appName: '应用的中文别名', version: '0.1.0' })
+// makeUpgrade({ name: 'vue-mailclient', appName: '应用的中文别名', version: '0.1.0' })
 function makeUpgrade(manifest) {
   var upgradeJson = Object.assign({}, manifest, { packages: {} })
 

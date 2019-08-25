@@ -29,6 +29,6 @@ function runNwDev(uri = '') {
 
   function exitHandle(e) {
     if (!closed) nwDev.kill()
-    console.log(e || '233333, bye~~~')
+    console.log(e || 'Cancel Client.')
   }
 }
